@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "alejandroaperez1994g",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "5.1.3"
+  }
 }

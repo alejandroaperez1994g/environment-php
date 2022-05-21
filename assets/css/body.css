@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../img/login-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

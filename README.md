@@ -35,7 +35,4 @@ This application consists of a simulation of the authentication process in a web
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/755/755016.png" alt="server_icon" height="30" /> Preview
 
-<img src="./assets/img/demo/login.png" alt="demo-picture" height="150" /> 
-<img src="./assets/img/demo/login-auth.png" alt="demo-picture" height="150" /> 
-<img src="./assets/img/demo/login-logout.png" alt="demo-picture" height="150" /> 
-<img src="./assets/img/demo/home.png" alt="demo-picture" height="150" />
+<img src="./assets/img/demo/login.png" alt="demo-picture" height="120" /> <img src="./assets/img/demo/login-auth.png" alt="demo-picture" height="120"/><img src="./assets/img/demo/login-logout.png" alt="demo-picture" height="120" />  <img src="./assets/img/demo/home.png" alt="demo-picture" height="120" />

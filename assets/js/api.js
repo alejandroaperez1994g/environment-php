@@ -1,7 +1,6 @@
-// require("dotenv").config({ path: "../../.env" });
+require("dotenv").config({ path: "../../.env" });
 
-// const api_key = process.env.IMDB_API_KEY ? 'f7182b2d73f71e8efc8c7b11f99cdb8e' ;
-const api_key = "f7182b2d73f71e8efc8c7b11f99cdb8e";
+const api_key = process.env.IMDB_API_KEY;
 
 const getBanner = async () => {
   const response = await fetch(

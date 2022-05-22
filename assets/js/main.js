@@ -15,7 +15,7 @@ const getRandomMovie = async () => {
   home__banner.style.backgroundImage = `url(${imagePath}${
     movieData?.backdrop_path || movieData?.poster_path
   })`;
-  banner__title.textContent = movieData.name;
+  banner__title.textContent = movieData.original_title;
   bannerOverview.textContent = movieData.overview;
   return movieData;
 };

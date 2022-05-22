@@ -3,7 +3,10 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background: #030415;
+  background-image: url("../img/home-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .navbar {

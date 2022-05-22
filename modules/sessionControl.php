@@ -62,13 +62,19 @@ function checkErr($typeError)
         $error = '';
         switch ($typeError) {
             case isset($typeError['logout']):
-                $error = "logout";
+                $error = "<div class='alert alert-primary mt-2'  role='alert'>
+                You logout successfully!!
+              </div>";
                 break;
             case isset($typeError['auth-error']):
-                $error =  "auth-error";
+                $error =  "<div class='alert alert-primary mt-2'  role='alert'>
+                Authentication Error!!
+              </div>";
                 break;
             case isset($typeError['permission-error']):
-                $error =  "permission-error";
+                $error =  "<div class='alert alert-primary mt-2'  role='alert'>
+                Permission Denied!!
+              </div>";
                 break;
             default:
                 $error = '';

@@ -1,0 +1,37 @@
+.home__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: #030415;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #030415;
+  color: white;
+}
+.navbar-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-link {
+  color: inherit;
+}
+.nav-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  height: 25px;
+}
+.logout:hover {
+  color: red;
+  font-weight: 400;
+}
+.dropdown__icon {
+  height: 20px;
+  margin-right: 1rem;
+}

@@ -1,4 +1,8 @@
 @import url("./reset.css");
 @import url("./main.css");
-@import url("./body.css");
+@import url("./index_body.css");
+@import url("./home_body.css");
+@import url("./home_banner.css");
+@import url("./banner__button_group.css");
 @import url("./login_modal.css");
+@import url("./main_content.css");

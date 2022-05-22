@@ -33,7 +33,6 @@
 }
 
 .background__card {
-  width: 140%;
   height: 170%;
   position: absolute;
   z-index: -1;

@@ -61,7 +61,7 @@ $userEmail = $_SESSION['useremail'];
                 </ul>
                 <div class="dropdown me-5 pe-5">
                     <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
-                        <img src="https://m.media-amazon.com/images/I/61Bx7HZwXGL._AC_SL1300_.jpg" width="40" height="40" class="rounded-circle">
+                        <img src="./assets/img/profile-picture.jpg" width="50" height="50" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu me-6" aria-labelledby="dropdownMenuOffset">
                         <li><a class="dropdown-item" href="#"><img class='dropdown__icon' src="./assets/icons/person-badge.svg" alt="dropdown__icon">PROFILE </a></li>

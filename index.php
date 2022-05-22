@@ -1,12 +1,10 @@
 <?php
 require("./modules/sessionControl.php");
 
-$test = checkErr($_GET);
-echo "<pre>";
-print_r(checkErr($_GET));
-echo "</pre>";
-?>
+$errorM = checkErr($_GET);
 
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +18,7 @@ echo "</pre>";
     <title>Disney+</title>
 </head>
 
-<body>
+<body class="index__body">
 
     <section class="loginModal">
         <img src="./assets/img/cta-logo-one.svg" alt="logos-up">
@@ -36,6 +34,7 @@ echo "</pre>";
                     <label for="floatingPassword">Password</label>
                 </div>
 
+                <?= $errorM ?>
                 <button type="submit" class="btn-lg btn-primary mt-3 login__button">Get All There</button>
             </form>
         </div>
